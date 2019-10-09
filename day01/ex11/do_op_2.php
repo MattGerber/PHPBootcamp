@@ -1,6 +1,5 @@
 #!/usr/bin/php
 <?php
-
 if ($argc == 2){
 	if (strpos($argv[1], "+")){
 		$arr = explode("+", $argv[1]);
