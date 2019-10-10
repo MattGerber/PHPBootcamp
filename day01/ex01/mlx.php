@@ -6,4 +6,5 @@ while ($i < 1000 )
 	print("x");
 	$i++;
 }
+print("\n");
 ?>
