@@ -1,4 +1,4 @@
-SELECT `title` AS 'TITLE', `summary`AS 'Summary', `prod_year`
+SELECT `title` AS 'Title', `summary`AS 'Summary', `prod_year`
 FROM `film` 
 INNER JOIN `genre` ON genre.id_genre
 WHERE genre.name = 'erotic'
