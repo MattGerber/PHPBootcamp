@@ -1,1 +1,1 @@
-CREATE DATABASE db_magerber;
+CREATE DATABASE IF NOT EXISTS `db_magerber`;

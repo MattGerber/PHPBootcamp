@@ -1,4 +1,5 @@
-SELECT `title` AS 'TITLE', `summary`AS 'Summary' 
+SELECT `title` AS 'TITLE', `summary`AS 'Summary', `prod_year`
 FROM `film` 
-WHERE id_genre = 25
-ORDER BY prod_year;
+INNER JOIN `genre` ON genre.id_genre
+WHERE genre.name = 'erotic'
+ORDER BY `prod_year` DESC;

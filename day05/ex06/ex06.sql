@@ -1,6 +1,6 @@
 SELECT `title`,`summary`
 FROM`film`
 WHERE 
-	summary  LIKE '%Vincent%'
+	LOWER(`summary`)  LIKE '%vincent%'
 ORDER BY 
-	id_film;
+	`id_film` ASC;
